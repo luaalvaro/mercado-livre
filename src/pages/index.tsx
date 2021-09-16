@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react"
 import { NextPage } from "next"
 
-import { Header, Subheader, Slide } from '../components'
+import { Header, Subheader, Slide, CardStaticImage } from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +9,8 @@ const Home: NextPage = () => {
       <Header />
       <Subheader />
       <Slide />
+      <CardStaticImage strImg="card-static-01" />
+      <CardStaticImage strImg="card-static-02" />
     </Box>
   )
 }

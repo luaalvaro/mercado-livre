@@ -7,5 +7,6 @@
 import Header from "./header";
 import Subheader from "./subheader";
 import Slide from "./slide";
+import CardStaticImage from "./cardstaticimg";
 
-export { Header, Subheader, Slide }
+export { Header, Subheader, CardStaticImage, Slide }
