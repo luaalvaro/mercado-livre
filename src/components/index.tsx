@@ -6,5 +6,6 @@
 
 import Header from "./header";
 import Subheader from "./subheader";
+import Slide from "./slide";
 
-export { Header, Subheader }
+export { Header, Subheader, Slide }
