@@ -2,7 +2,7 @@ import { Flex, Text } from '@chakra-ui/react'
 import { BiMap } from 'react-icons/bi'
 import { RiArrowDropRightLine } from 'react-icons/ri'
 
-const Subheader = () => {
+const Subheader: React.FC = () => {
     return (
         <Flex
             height="39px"
