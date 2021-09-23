@@ -1,10 +1,12 @@
-import React from 'react'
+import { Box } from '@chakra-ui/react'
 
 const Offers: React.FC = ({ children }) => {
     return (
-        <div>
+        <Box
+            px="10px"
+        >
             {children}
-        </div>
+        </Box>
     )
 }
 

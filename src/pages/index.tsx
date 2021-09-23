@@ -13,7 +13,7 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <Box>
+    <Box bg="#f7f7f7" paddingBottom="50px">
       <Header />
       <Subheader />
       <Slide />
